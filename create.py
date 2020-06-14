@@ -42,7 +42,7 @@ def create():
         os.system(cmd)
     
     print('adding files...')
-    cmd = f'git add \'{project}\''
+    cmd = f'git add .'
     os.system(cmd)
     
     print(f'\'{project_name}\' was created, Master')
